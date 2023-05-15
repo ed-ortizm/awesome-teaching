@@ -15,7 +15,10 @@ setup(
         where="src", include=["[a-z]*"]
     ),
     package_dir={"": "src"},
-    description="Automatic content creation for teaching with LLMs from teachers' notes.",
+    description=(
+        "Automatic content creation for teaching with"
+        "LLMs from teachers' notes."
+    ),
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/ed-ortizm/awesome-teaching",
